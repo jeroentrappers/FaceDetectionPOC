@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36A54B071551440600A67D3D /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A54B061551440600A67D3D /* border.png */; };
+		36CE7309154EB9530050104C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE7308154EB9530050104C /* UIKit.framework */; };
+		36CE730B154EB9530050104C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE730A154EB9530050104C /* Foundation.framework */; };
+		36CE730D154EB9530050104C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE730C154EB9530050104C /* CoreGraphics.framework */; };
+		36CE7313154EB9530050104C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36CE7311154EB9530050104C /* InfoPlist.strings */; };
+		36CE7315154EB9530050104C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE7314154EB9530050104C /* main.m */; };
+		36CE7319154EB9530050104C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE7318154EB9530050104C /* AppDelegate.m */; };
+		36CE731C154EB9530050104C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE731B154EB9530050104C /* ViewController.m */; };
+		36CE731F154EB9530050104C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CE731D154EB9530050104C /* ViewController.xib */; };
+		36CE7326154EB9C10050104C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE7325154EB9C10050104C /* QuartzCore.framework */; };
+		36CE7328154EB9D30050104C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE7327154EB9D30050104C /* CoreImage.framework */; };
+		36CE732E154EBB070050104C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE732D154EBB070050104C /* CoreMedia.framework */; };
+		36CE7330154EBB0E0050104C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE732F154EBB0E0050104C /* CoreVideo.framework */; };
+		36CE7336154EBB550050104C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE7335154EBB550050104C /* AVFoundation.framework */; };
+		36CE7338154EBB610050104C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CE7337154EBB610050104C /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36A54B061551440600A67D3D /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border.png; sourceTree = "<group>"; };
+		36CE7304154EB9530050104C /* FaceDetectionPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetectionPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CE7308154EB9530050104C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36CE730A154EB9530050104C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36CE730C154EB9530050104C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36CE7310154EB9530050104C /* FaceDetectionPOC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceDetectionPOC-Info.plist"; sourceTree = "<group>"; };
+		36CE7312154EB9530050104C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36CE7314154EB9530050104C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36CE7316154EB9530050104C /* FaceDetectionPOC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceDetectionPOC-Prefix.pch"; sourceTree = "<group>"; };
+		36CE7317154EB9530050104C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36CE7318154EB9530050104C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36CE731A154EB9530050104C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36CE731B154EB9530050104C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36CE731E154EB9530050104C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		36CE7325154EB9C10050104C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		36CE7327154EB9D30050104C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		36CE732D154EBB070050104C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		36CE732F154EBB0E0050104C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		36CE7335154EBB550050104C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		36CE7337154EBB610050104C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36CE7301154EB9530050104C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE7338154EBB610050104C /* ImageIO.framework in Frameworks */,
+				36CE7326154EB9C10050104C /* QuartzCore.framework in Frameworks */,
+				36CE732E154EBB070050104C /* CoreMedia.framework in Frameworks */,
+				36CE730D154EB9530050104C /* CoreGraphics.framework in Frameworks */,
+				36CE7328154EB9D30050104C /* CoreImage.framework in Frameworks */,
+				36CE7336154EBB550050104C /* AVFoundation.framework in Frameworks */,
+				36CE7330154EBB0E0050104C /* CoreVideo.framework in Frameworks */,
+				36CE7309154EB9530050104C /* UIKit.framework in Frameworks */,
+				36CE730B154EB9530050104C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36CE72F9154EB9530050104C = {
+			isa = PBXGroup;
+			children = (
+				36CE730E154EB9530050104C /* FaceDetectionPOC */,
+				36CE7307154EB9530050104C /* Frameworks */,
+				36CE7305154EB9530050104C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36CE7305154EB9530050104C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36CE7304154EB9530050104C /* FaceDetectionPOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CE7307154EB9530050104C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36CE7337154EBB610050104C /* ImageIO.framework */,
+				36CE7325154EB9C10050104C /* QuartzCore.framework */,
+				36CE7335154EBB550050104C /* AVFoundation.framework */,
+				36CE7327154EB9D30050104C /* CoreImage.framework */,
+				36CE732D154EBB070050104C /* CoreMedia.framework */,
+				36CE732F154EBB0E0050104C /* CoreVideo.framework */,
+				36CE7308154EB9530050104C /* UIKit.framework */,
+				36CE730A154EB9530050104C /* Foundation.framework */,
+				36CE730C154EB9530050104C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36CE730E154EB9530050104C /* FaceDetectionPOC */ = {
+			isa = PBXGroup;
+			children = (
+				36CE7317154EB9530050104C /* AppDelegate.h */,
+				36CE7318154EB9530050104C /* AppDelegate.m */,
+				36CE731A154EB9530050104C /* ViewController.h */,
+				36CE731B154EB9530050104C /* ViewController.m */,
+				36CE731D154EB9530050104C /* ViewController.xib */,
+				36A54B061551440600A67D3D /* border.png */,
+				36CE730F154EB9530050104C /* Supporting Files */,
+			);
+			path = FaceDetectionPOC;
+			sourceTree = "<group>";
+		};
+		36CE730F154EB9530050104C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36CE7310154EB9530050104C /* FaceDetectionPOC-Info.plist */,
+				36CE7311154EB9530050104C /* InfoPlist.strings */,
+				36CE7314154EB9530050104C /* main.m */,
+				36CE7316154EB9530050104C /* FaceDetectionPOC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36CE7303154EB9530050104C /* FaceDetectionPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CE7322154EB9530050104C /* Build configuration list for PBXNativeTarget "FaceDetectionPOC" */;
+			buildPhases = (
+				36CE7300154EB9530050104C /* Sources */,
+				36CE7301154EB9530050104C /* Frameworks */,
+				36CE7302154EB9530050104C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceDetectionPOC;
+			productName = FaceDetectionPOC;
+			productReference = 36CE7304154EB9530050104C /* FaceDetectionPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36CE72FB154EB9530050104C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = iCapps;
+			};
+			buildConfigurationList = 36CE72FE154EB9530050104C /* Build configuration list for PBXProject "FaceDetectionPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36CE72F9154EB9530050104C;
+			productRefGroup = 36CE7305154EB9530050104C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36CE7303154EB9530050104C /* FaceDetectionPOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36CE7302154EB9530050104C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE7313154EB9530050104C /* InfoPlist.strings in Resources */,
+				36CE731F154EB9530050104C /* ViewController.xib in Resources */,
+				36A54B071551440600A67D3D /* border.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CE7300154EB9530050104C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE7315154EB9530050104C /* main.m in Sources */,
+				36CE7319154EB9530050104C /* AppDelegate.m in Sources */,
+				36CE731C154EB9530050104C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36CE7311154EB9530050104C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CE7312154EB9530050104C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36CE731D154EB9530050104C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CE731E154EB9530050104C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36CE7320154EB9530050104C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36CE7321154EB9530050104C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36CE7323154EB9530050104C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceDetectionPOC/FaceDetectionPOC-Prefix.pch";
+				INFOPLIST_FILE = "FaceDetectionPOC/FaceDetectionPOC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36CE7324154EB9530050104C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceDetectionPOC/FaceDetectionPOC-Prefix.pch";
+				INFOPLIST_FILE = "FaceDetectionPOC/FaceDetectionPOC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36CE72FE154EB9530050104C /* Build configuration list for PBXProject "FaceDetectionPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CE7320154EB9530050104C /* Debug */,
+				36CE7321154EB9530050104C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CE7322154EB9530050104C /* Build configuration list for PBXNativeTarget "FaceDetectionPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CE7323154EB9530050104C /* Debug */,
+				36CE7324154EB9530050104C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36CE72FB154EB9530050104C /* Project object */;
+}
